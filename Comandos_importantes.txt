@@ -1,0 +1,54 @@
+
+
+
+*crair0 43\ambiente virtual
+cmd --> python -m venv 'nome para o ambiente' (venv)
+*Verificar a versão do python
+cmd --> python --version
+
+*Ativar o ambiente virtual
+cmd --> .\env\Scripts\Activate.ps1
+cmd --> venv\Scripts\activate
+
+*Desativar o ambiente virtual
+cmd --> deactivate
+
+*Instalar a biblioteca para trabalhar com o excel
+pip install openpyxl
+
+*Instalar a biblioteca para trabalhar com matriz
+pip install numpy
+
+*Comando para listar todos os pacotes instalados no python
+pip freeze
+
+*Comando para instalar o pyside2
+pip install pyside2
+
+*Comando para instalar o Pyqt5
+pip install Pyqt6
+
+*Comando para instalar o sqlite3
+pip install sqlite3
+
+*Comando para converter o arquivo ui do pyside2 para arquivo python
+pyside2-uic (nome Arquivo) -o (nome para o arquivo python)
+pyside2-uic _Ui\login.ui -o ui_login.py
+
+*Comando para converter o arquivo ui do pyside6 para arquivo python
+pyside6-rcc (nome Arquivo) -o (nome para o arquivo python) *pacote de imagens
+pyside6-rcc _Ui\images.qrc -o images.py *pacote de imagens
+
+pyside6-uic cadastro.ui -o ui_main.py 
+
+*Comando para converter o arquivo ui do PYQT6 para arquivo python
+pyuic6 -x Login.ui -o Login.py
+
+
+*Comando para usar a extensão do sqlite e visualizar os banco de dados
+Ctrl+Shift+P --> digita "SQlite" --> seleciona open database
+
+*Bibliotecas para o projeto cadastro
+pip install requests
+pip install pandas
+pip install openpyxl
