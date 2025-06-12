@@ -46,7 +46,7 @@ def renomear_arquivos_pasta(caminho_pasta):
     print(f'\nCSV gerado: {caminho_csv}')
 
 
-renomear_arquivos_pasta()
+renomear_arquivos_pasta(r'D:\_Robson\RLDF\Devs\Projetos Git\correcting_file_names\aulas-pdf')
 # Exemplo de uso
 # renomear_arquivos_pasta(r'C:\caminho\para\sua\pasta')
 
